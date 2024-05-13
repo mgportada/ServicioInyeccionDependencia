@@ -14,7 +14,7 @@ namespace ServicioInyeccionDependencia
             var message = "¡Hola! Su pedido está disponible para recoger";
             foreach (var customer in customers)
             {
-                communicationService.SendEmail(customer.Email, message);
+                communicationService.SendMessage(customer.Email, message);
             }
         }
     }

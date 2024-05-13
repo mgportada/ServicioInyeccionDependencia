@@ -10,7 +10,7 @@ namespace ServicioInyeccionDependencia.Services
             _emailService = new EmailService();
         }
 
-        public void SendEmail(string email, string message)
+        public void SendMessage(string email, string message)
         {
             _emailService.SendEmail(email, message);
         }
