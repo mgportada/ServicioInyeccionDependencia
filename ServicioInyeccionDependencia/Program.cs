@@ -6,10 +6,10 @@ namespace ServicioInyeccionDependencia
     {
         static void Main(string[] args)
         {
-            var customerSErvice = new CustomerService();
+            var customerService = new CustomerService();
             var communicationService = new CommunicationService();
 
-            var customers = customerSErvice.GetCustomers();
+            var customers = customerService.GetCustomers();
             var message = "Hello, we have a new product available for you";
             foreach (var customer in customers)
             {
