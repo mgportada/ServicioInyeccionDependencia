@@ -11,7 +11,7 @@ namespace ServicioInyeccionDependencia
             var communicationService = new CommunicationService();
 
             var customers = customerService.GetCustomers();
-            var message = "¡Hola! Su pedido está disponible para recoger";
+            var message = "¡Hola! Su pedido ya está disponible para recoger";
             foreach (var customer in customers)
             {
                 communicationService.SendMessage(customer.Email, message);
