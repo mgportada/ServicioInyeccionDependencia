@@ -10,4 +10,5 @@ La inyección de dependencias es un patrón de diseño que se utiliza para reduc
 | Repositorios (DataBase, Archivos, Curls)    | IRepository  | CustomerService |
 | Conexiones (MySQL, Oracle)                  | IDbConnection | CustomerRepository |
 
-Mira como queda el diagrama UML
+Tras ello, usa SMS y Oracle.
+Actualiza el arhivo con el diagrama UML
